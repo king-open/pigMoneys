@@ -1,12 +1,13 @@
 {
   "name": "pigmoneys",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build --base=/react-mangosteen-1-preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix":"eslint . --fix",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -14,12 +15,13 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^1.1.1",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react": "^4.0.3",
-    "eslint": "^8.45.0",
+    "eslint": "^8.53.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "typescript": "^5.0.2",
